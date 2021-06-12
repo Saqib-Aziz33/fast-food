@@ -98,7 +98,7 @@
 .animation-1{
     animation-name: ani1;
     animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 4;
 }
 @keyframes ani1{
     from{
@@ -114,7 +114,7 @@
 .animation-2{
     animation-name: ani2;
     animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 4;
 }
 @keyframes ani2{
     from{
@@ -130,7 +130,7 @@
 .animation-3{
     animation-name: ani3;
     animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 4;
 }
 @keyframes ani3{
     from{
@@ -251,13 +251,16 @@ footer .fa-twitter:hover{
 
 
 /* preloader */
+main-body{
+    display: none;
+}
 #preloader{
     height: 100vh;
     width: 100vw;
     background-color: var(--clr-dark);
     display: grid;
     place-items: center;
-    display: none;
+    /* display: none; */
 }
 
 .lds-ellipsis {

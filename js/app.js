@@ -5,8 +5,8 @@ let mainBody = document.getElementById(`main-body`);
 let preLoader = document.getElementById(`preloader`);
 
 
-    mainBody.style.display = `none`;
-    preLoader.style.display = `grid`;
+    /* mainBody.style.display = `none`;
+    preLoader.style.display = `grid`; */
 
 function display(){
     preLoader.style.display = `none`;
